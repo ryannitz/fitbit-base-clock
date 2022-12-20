@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0"
+  },
+  "fitbit": {
+    "appUUID": "3c1bc439-9833-46dc-bbb0-8a9910024a7f",
+    "appType": "clockface",
+    "appDisplayName": "BaseClock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_user_profile",
+      "access_activity",
+      "access_location"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "BaseClock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
